@@ -1,16 +1,26 @@
-# boozin_fitness
+Boozin Fitness - Flutter Health Integration Assignment
+This project is a Flutter application developed as a technical assignment. The app securely connects to the user's Google account to fetch and display daily fitness data, specifically step count and active calories burned, from Google Fit and Health Connect.
 
-A new Flutter project.
+The user interface is clean, modern, and fully adaptive, supporting both light and dark system themes.
 
-## Getting Started
+Features
+Google Fit / Health Connect Integration: Fetches total steps and active kilocalories burned for the current day.
 
-This project is a starting point for a Flutter application.
+Theme-Adaptive UI: Automatically switches between a light and dark theme based on the system settings. All components, including logos and colors, adapt accordingly.
 
-A few resources to get you started if this is your first Flutter project:
+Modern UI/UX: Displays data in clear, easy-to-read cards with progress indicators showing progress toward daily goals.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+State Management: Utilizes the GetX package for simple and efficient state management and dependency injection.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Smooth User Experience: Includes an animated splash screen for a professional entry into the app.
+
+Tech Stack & Packages
+Framework: Flutter 3.x
+
+Language: Dart
+
+State Management: get (GetX)
+
+Health Data: health
+
+Platform: Android
