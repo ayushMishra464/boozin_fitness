@@ -14,6 +14,8 @@ State Management: Utilizes the GetX package for simple and efficient state manag
 
 Smooth User Experience: Includes an animated splash screen for a professional entry into the app.
 
+Architecture: Clean Architecture
+
 ## Tech Stack & Packages
 Framework: Flutter 3.x
 
